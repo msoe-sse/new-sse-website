@@ -1,7 +1,9 @@
+import "@styles/example";
+
 export default Example = () => {
-    return (
-        <div>
-            <h1>Hello There</h1>
-        </div>
-    );
-}
+  return (
+    <div>
+      <h1>Hello There</h1>
+    </div>
+  );
+};
