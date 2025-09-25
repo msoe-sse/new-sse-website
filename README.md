@@ -1,16 +1,27 @@
-# React + Vite
+The New SSE Website
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## vite + react
 
-Currently, two official plugins are available:
+`npm run dev` - to launch dev server
+`npm run build` - to build dist folder
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Testing
 
-## React Compiler
+`npm test` - runs jest test suit with coverage
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Adding test
 
-## Expanding the ESLint configuration
+Every file in `scripts/` should have a file in `script/test/`. if a script is names `script1.js` then the test file should be named `script1.test.js`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Components
+
+Components are stored in `components/`. Component files should be name in upper cammel case with the file name corresponding to the component the file is exporting. For instance a file with the component `<CustomButton />` should be named `CustomButton.jsx`
+
+### Component Testing
+
+Currently there are no ui/dom tests. Feel free to add this in the future.
+
+## Linting
+
+ALL FILES SHOULD BE LINTED PRIOR TO COMMITS. Run `npm run lint` to see linting errors.

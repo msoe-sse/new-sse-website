@@ -1,3 +1,3 @@
 export const exampleFunction = (str) => {
-    return `Hello ${str}`;
-}
+  return `Hello ${str}`;
+};
