@@ -1,4 +1,6 @@
-export default Layout = () => {
+import "./Layout.css"
+
+export default function Layout() {
   return (
     <div>
       {/* where the header will go */}
