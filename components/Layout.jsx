@@ -1,9 +1,16 @@
-export default Layout = () => {
+import { HashRouter } from "react-router";
+import MainContent from "./MainContent";
+
+export default function Layout() {
   return (
     <div>
-      {/* where the header will go */}
-      {/* where the main content will go */}
-      {/* where the footer will go */}
+      <HashRouter>
+        <div>
+          {/* where the header will go */}
+          <MainContent />
+          {/* where the footer will go */}
+        </div>
+      </HashRouter>
     </div>
   );
-};
+}
