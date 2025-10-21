@@ -11,8 +11,10 @@
     "test": "jest --coverage"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.14"
     "react-router": "^7.9.2"
   },
   "devDependencies": {

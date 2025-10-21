@@ -1,3 +1,5 @@
+import DayNightSwitch from "@components/DayNightSwitch.jsx";
+import "./Layout.css"
 import { HashRouter } from "react-router";
 import MainContent from "./MainContent";
 
