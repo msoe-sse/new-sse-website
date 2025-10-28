@@ -1,0 +1,8 @@
+.chip {
+color: green;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: red;
+  max-width: fit-content;
+}
